@@ -1,0 +1,13 @@
+{
+  "name": "test-msw",
+  "version": "1.0.0",
+  "description": "> <https://mswjs.io/>",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "mock": "node src/mocks/server.js"
+  },
+  "devDependencies": {
+    "msw": "^1.2.1"
+  }
+}
