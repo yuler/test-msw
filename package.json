@@ -5,9 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "mock": "node src/mocks/server.js"
   },
   "devDependencies": {
-    "msw": "^1.2.1"
+    "msw": "^1.2.1",
+    "vite": "^4.2.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
